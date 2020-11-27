@@ -1,0 +1,224 @@
+body.home {
+	font-family: Georgia, sans-serif;
+	background-image: url(../images/hogwarts.jpg);
+/*  bron plaatje, geraadpleegd op 20 oktober 2019: https://www.wizardingworld.com/quiz/the-hogwarts-castle-quiz */
+	background-repeat: no-repeat;
+
+}
+
+body {
+	font-family: Georgia, sans-serif;
+
+}
+
+/* Homepagina */
+
+h1 {
+	text-align: center;
+	color: white;
+	font-family: 'Cinzel';
+	
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	margin-top: 6em;
+	margin-left: 1em;
+
+
+}
+
+a.navigatie {
+	text-decoration: none;
+	color: white;
+	border: 2px solid white;
+	padding: 5px;
+	margin: 3px;
+	border-style: groove;
+	
+}
+
+h2#over {
+	border-style: solid;
+	padding: 1em;
+	margin: 2em;
+	font-size: 15px;
+
+
+
+}
+
+p.homealinea {
+
+	padding: 1em; 
+
+}
+i {
+	display: block;
+	color: #139874;
+	font-size: 1em;
+	margin: 5em;
+	text-align: center;
+}
+
+audio {
+	margin-left: 2em;
+	margin-bottom: 2em;
+}
+	
+h3.sound {
+	text-align: center;
+}
+
+section.sound {
+	border: 2px solid black;
+	margin-bottom: 5em;
+}
+
+
+
+h4.home {
+	
+	padding: 2px;
+	background-color: grey;
+	color: black;
+}
+
+
+p.nieuws {
+	
+	
+	padding: 1em; 
+	border-color: black;
+
+}
+
+
+
+a.info {
+	
+	color: red;
+	text-decoration: none;
+
+}
+
+
+/* de auteurs pagina */
+
+
+h2.auteur, p.auteur {
+
+	margin-top: 2em;
+}
+
+img.auteur {
+	width: 100%;
+}
+
+blockquote {
+	display: block;
+	border: 2px solid #139874;
+	margin: 2em;
+	padding: 1em;
+	text-align: center;
+}
+
+
+a.auteur {
+	color: black;
+	text-decoration: none;
+	background-color: white;
+	border-style: groove;
+	padding: 5px;
+	margin: 5px;
+	
+}
+
+/* de boeken pagina */
+header.boeken {
+	background-color: black;
+}
+
+h2.boeken {
+	text-align: center;
+	margin: 2em;
+
+	
+}
+
+figure {
+	margin: 2em;
+	margin-bottom: 2em;
+	text-align: center;
+	border: 2px solid #139874
+
+
+}
+
+img.boek {
+	border: 10px solid #139874;
+	width: 93%;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+p.boek {
+	margin: 2em;
+	text-align: center;
+}
+
+table, td {
+	border: 2px solid black;
+	margin-left: 2em;
+	border-collapse: collapse;
+	padding: 1em;
+
+}
+
+/* de contact pagina */
+
+h2.account {
+	font-size: 12px;
+	margin-top: 4em;
+}
+
+form {
+	border: 1px solid black;
+	padding: 10px 20px 10px 20px;
+	margin: 1em;
+}
+
+input, textarea {
+	background-color: #f2f2f2;
+}
+
+p.aanmelden {
+	margin-top: 5em;
+}
+
+section.over {
+	margin: 1em;
+	margin-top: 3em;
+}
+
+img.account {
+	border: 10px solid #139874;
+
+	
+}
+
+
+
+
+
+/* de footer op  elke pagina */
+p.copy {
+	text-align: center;
+	width: 100%;
+	background-color: black;
+	color: white;
+	margin-top: 4em;
+}
